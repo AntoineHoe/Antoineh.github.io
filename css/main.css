@@ -3,7 +3,7 @@
   }
   
   body {
-    background-color: #f7ab07fb;
+    /*background-color: #f7ab07fb;*/
     padding: 20px;
     font-family: Arial;
   }
@@ -36,7 +36,7 @@
     display: none; /* Hide theme by default */
   }
   .intro{
-    margin-right: 40%;  
+    margin-right: 50%;  
 }
   .third{
       width: 33.33%;
@@ -61,13 +61,12 @@
   
   /* Content */
   .content {
-    background-color: white;
     padding: 10px;
     border-radius: 25px;
   }
 
   img{
-        border-radius: 25px;
+    border-radius: 25px;
   }
   
   /* The "show" class is added to the filtered elements */
@@ -92,5 +91,10 @@
   /* Add a dark background color to the active button */
   .btn.active {
     background-color: #666;
-     color: white;
+    color: white;
+  }
+  .recap{
+    margin-left: 2%;
+    margin-right: 20%;
+    margin-top: 1%;
   }
