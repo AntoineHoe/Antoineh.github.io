@@ -17,7 +17,9 @@
   h1 {
     font-size: 50px;
     word-break: break-all;
-    
+    text-align: center;
+    text-decoration: underline;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
   .row {
@@ -34,9 +36,12 @@
   .theme {
     float: left;
     display: none; /* Hide theme by default */
+    
   }
   .intro{
-    margin-right: 50%;  
+    margin-right: 50%; 
+    margin-bottom: 15px; 
+    margin-top: 20px;
 }
   .third{
       width: 33.33%;
@@ -52,6 +57,44 @@
       width: 100%;
       margin-bottom: 10%;
   }
+  /*
+  FONDS TEXTES
+  */
+
+  /* SCIENSANO */
+  /*https://coolors.co/134611-3e8914-3da35d-96e072-e8fccf*/
+  .vert_fonce{
+    border-radius: 15px;
+    background-color: #3e8914;
+  }
+  .vert{
+    border-radius: 15px;
+    background-color:#3da35d;
+  }
+
+  .vert_clair{
+    border-radius: 15px;
+    background-color: #96e072;
+  }
+
+  /* MALTE */
+
+  h4.title_text{
+    text-align: center;
+    text-decoration: underline;
+  }
+  h5{
+    text-align: center;
+    font-style: italic;
+  }
+  p{
+    padding-top: 15px;
+  }
+  .bigImage{
+      max-width: 381px;
+      height: auto;;
+  }
+
   /* Clear floats after rows */
   .row:after {
     content: "";
@@ -65,9 +108,12 @@
     border-radius: 25px;
   }
 
-  img{
+  div>img{
     border-radius: 25px;
-  }
+    border : 1px solid gray;
+    display: table-cell;
+    vertical-align: middle;
+   }
   
   /* The "show" class is added to the filtered elements */
   .show {
