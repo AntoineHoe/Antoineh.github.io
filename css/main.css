@@ -67,6 +67,9 @@
   /*
   FONDS TEXTES
   */
+  div>p{
+    vertical-align: middle;
+  }
 
   /* SCIENSANO */
   /*https://coolors.co/134611-3e8914-3da35d-96e072-e8fccf*/
